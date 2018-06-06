@@ -1,0 +1,424 @@
+/*--General CSS Start--*/
+body{
+    font-family: 'Lato','Arial',sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.container-fluid{
+    padding: 0px;
+}
+
+
+/*--Scrollbar CSS Start--*/
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+
+/*--Navbar CSS Start--*/
+.navbar{
+    margin-bottom: 0px;
+}
+
+.navbar-default{
+    background-color: #3399ff;
+    border-color: #3399ff;
+}
+
+.navbar-default .navbar-brand{
+    color: #000;
+}
+
+.navbar-default .navbar-toggle{
+    color: #000;
+    border-color: #000;
+}
+
+.navbar-default .navbar-toggle{
+    border-color: #000;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
+    background-color: #000;
+}
+
+.navbar-default .navbar-toggle .icon-bar{
+    color: #fff ;
+}
+
+.navbar-default .navbar-nav>li>a{
+    color: #000;
+}
+
+
+/*--Cover Css Start--*/
+.carousel.fade {
+    opacity: 1;
+}
+.carousel.fade .item {
+    transition: opacity ease-out .7s;
+    left: 0;
+    opacity: 0; /* hide all slides */
+    top: 0;
+    position: absolute;
+    width: 100%;
+    display: block;
+}
+.carousel.fade .item:first-child {
+    top: auto;
+    opacity: 1; /* show first slide */
+    position: relative;
+}
+.carousel.fade .item.active {
+    opacity: 1;
+}
+
+/*--Cover Button CSS Start--*/
+.hover-slide {
+    position: absolute;
+    z-index: 10;
+    margin-top: 16%;
+}
+
+.btn.start-me{
+    margin: 0 auto;
+    padding: 10px 35px 10px 35px;
+    opacity: .80;
+    border: 2px solid rgba(255, 255, 255, 0);
+}
+
+.btn.start-me:hover{
+    transition: 0.9s;
+    opacity: 1;
+
+}
+a.btn.btn-primary.ngo-profile{
+    border-radius: 20px;
+    width: 110px;
+    border: 2px solid rgba(255, 255, 255, 0);
+}
+a.btn.btn-danger.ngo-profile{
+    border-radius: 20px;
+    width: 110px;
+    border: 2px solid rgba(255, 255, 255, 0);
+}
+a.btn:hover{
+    transition: 0.3s;
+    border: 2px solid #fff;
+
+}
+
+
+/*--Team CSS Start--*/
+.team{
+    padding: 10px 0px 30px;
+    text-align: center;
+    background-color: #7799bb;
+}
+
+.team b,
+.team h2,
+.team h4{
+    margin: 20px 0px 20px;
+    color: #fff;
+}
+
+.team h2{
+    text-decoration: none;
+}
+
+.team p{
+    color: #fff;
+}
+
+.team img{
+    height: 150px;
+    width: 150px;
+    margin-top: 40px;
+}
+
+
+/*--Testimonial CSS Start--*/
+#testimonial{
+    overflow: hidden;
+    min-height: 375px;
+    position: relative;
+    background: url(../img/childern.jpg) ;
+    background-size: cover;
+    background-color: rgba(0,0,0,.2);
+}
+
+.transparent{
+    min-height: 375px;
+    background: rgba(0, 0, 0, 0.3)
+}
+
+#testimonial .testimonial_header{
+    padding-top: 50px;
+}
+
+#testimonial .testimonial_header h2{
+    text-align: center;
+    color: #fff;
+}
+
+#testimonial .carousel-inner{
+    width: 50%;
+    margin: auto;
+}
+
+#testimonial .carousel-inner .item{
+    overflow: hidden;
+}
+
+#testimonial .carousel-inner .item .testimonial_slide p{
+    text-align: justify-all;
+    color: #fff;
+    margin-top: 10%;
+}
+
+#testimonial .carousel-inner .item .testimonial_slide h4{
+    text-align: right;
+    color: #fff;
+    padding-right: 10%;
+}
+
+.carousel-indicators{
+    left: 0;
+    margin: 0;
+    width: 100%;
+    font-size: 0;
+    height: 20px;
+    bottom: 15px;
+    padding: 0 5px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    position: absolute;
+    text-align: center;
+    white-space: nowrap;
+}
+
+
+/*--Footer CSS Start--*/
+footer{
+    background-color: #7799bb;
+}
+
+footer h4, footer h6{
+    color: #fff;
+}
+
+footer p{
+    color: #fff;
+}
+
+footer ul>li>a, footer ul>li>a:hover, footer ul>li>a:active, footer ul>li>a:visited{
+    color: #fff;
+}
+
+footer ul>li>a:hover{
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer a, .footer a:hover, .footer a:active, .footer a:visited{
+    text-decoration: none;
+    color: #fff;
+}
+
+/*--Mission CSS Start--*/
+.mission {
+    max-height: 320px;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.mission h2{
+    padding: 0 0 20px;
+    text-decoration: underline;
+}
+
+/*--Donation CSS Start--*/
+#donation .well{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+
+/*-- NGO Profile CSS Start --*/
+#ngoprofile .well{
+    width: 90%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+}
+#ngoprofile .well .caption{
+    width: 100%;
+    padding-left: 1%;
+}
+#ngoprofile .well .caption h2{
+    text-decoration: solid;
+}
+
+#picturecarousel .well{
+    width: 90%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.upload-img-btn input{
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 5px;
+    border-radius: 20px;
+    padding: 4px 10px;
+    width: 110px;
+    border: none;
+    border: 2px solid rgba(255, 255, 255, 0);
+}
+/*.upload-img-btn input[type="file"]*/
+.custom-file-upload input[type="file"]{
+    display: none;
+
+}
+.custom-file-upload{
+    border-radius: 20px;
+    padding: 5px;
+    background-color: rgba(168, 167, 170, 0.35);
+    margin: 5px 2px 5px 0px;
+    border: 2px solid rgba(255, 255, 255, 0);
+}
+.upload-img-btn input:hover,
+.custom-file-upload:hover{
+    transition: 0.3s;
+    border: 2px solid #fff;
+}
+
+/*-- User Profile Page --*/
+#userprofile .well{
+    width: 90%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    margin-bottom: 110px;
+}
+#userprofile .well .caption{
+    width: 100%;
+    padding-left: 1%;
+}
+#userprofile .well .caption h2{
+    text-decoration: solid;
+}
+
+/*-- Login Page --*/
+#login button{
+     width: 70%;
+ }
+#login .inputs{
+    margin: 10px;
+}
+#login .form-size{
+    width: 20%;
+}
+#login .img-logo{
+    width: 50%;
+    border: 2px solid grey;
+    border-radius: 70px;
+    margin-bottom: 10px;
+}
+
+.inputs a{
+    text-decoration: none;
+}
+
+/*-- NGO Registration Page --*/
+#ngoregister .well{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+
+/*-- Volunteer Registration Page --*/
+#volunteerregister .well{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+
+/*-- NGO List Page --*/
+.ngolist{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7%;
+}
+
+.ngolist .navbar{
+    margin-bottom: 20px;
+}
+
+.ngolist .navbar > .container-fluid .navbar-brand{
+    margin-left: 300px;
+    font-size: 24px;
+}
+
+.ngolist .navbar > .container-fluid .navbar-brand:hover{
+    color: black;
+}
+
+.ngolist .panel .panel-heading{
+    font-size: 16px;
+}
+
+.panel-body ul{
+    margin-bottom: 4%;
+}
+
+.panel-body ul li{
+    margin-right: 70px;
+}
+
+.panel-body h5{
+    margin-top: 0;
+}
+
+/*-- Feedback Page --*/
+.container.all-feedback{
+    margin-top: 60px;
+    margin-left: 20%;
+}
+.name{
+    width: 120px;
+    margin-bottom: 10px;
+}
+.email{
+    width: 190px;
+    margin-bottom: 10px;
+}
+.form-control.message{
+    height: 60px;
+    width: 60%;
+    margin-bottom: 10px;
+}
+.btn.btn-feedback{
+    width: 90px;
+}
+
