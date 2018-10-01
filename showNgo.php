@@ -6,7 +6,7 @@ $NGOid = $_GET['id'];
 
 $showNGO = fetchThisNGO($NGOid);
 ?>
-
+<!-- Showing NGO List -->
 <!-- Profile Section Start -->
 <form name="form1" method="post">
     <input type="hidden" name="email" />
