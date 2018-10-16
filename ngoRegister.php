@@ -8,7 +8,7 @@ if(!empty($loggedInUser)){
 }
 
 ?>
-
+//Registration page
 <div id="ngoregister" class="container">
     <div class="well">
         <h2 class="text-center">Sign up</h2>
