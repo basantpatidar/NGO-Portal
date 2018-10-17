@@ -8,7 +8,7 @@ if(empty($loggedInUser) || $loggedInUser->userType == 'ngo'){
 }
 
 $flag = $_GET['flag'];
-
+//NGO List
 $NGOList = fetchAllNGO();
 
 ?>
