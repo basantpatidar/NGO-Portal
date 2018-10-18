@@ -7,7 +7,7 @@ if(empty($loggedInUser)){
     die();
 }
 ?>
-
+//edit user profile
 <?php if($loggedInUser->userType == 'ngo'){ ?>
 <div id="ngoregister" class="container">
     <div class="well">
