@@ -2,6 +2,7 @@
 <footer>
     <div class="footer container">
         <div class="row">
+            <!-- Footer -->
             <div class="col-sm-6 text-justify">
                 <h4>About Us</h4>
                 <p>Every Non-Profit organization requires help not only through monetary sources but also through time.
