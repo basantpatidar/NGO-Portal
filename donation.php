@@ -6,7 +6,7 @@ if(empty($loggedInUser) || $loggedInUser->userType == 'ngo'){
     header('Location: login.php');
     die();
 }
-
+//donation page
 $flag = $_GET['flag'];
 //NGO List
 $NGOList = fetchAllNGO();
