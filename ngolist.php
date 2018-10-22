@@ -3,7 +3,7 @@ require_once('model/config.php');
 include('header.php');
 
 $NGOList = fetchAllNGO();
-
+//NGO list
 ?>
     <div id="ngolist" class="ngolist container">
         <div class="row">
