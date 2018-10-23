@@ -3,9 +3,11 @@ require_once('model/config.php');
 include('header.php');
 
 $NGOid = $_GET['id'];
+//fetch NGO List
 
 $showNGO = fetchThisNGO($NGOid);
 ?>
+<!--   -->
 <!-- Showing NGO List -->
 <!-- Profile Section Start -->
 <form name="form1" method="post">
