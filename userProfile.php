@@ -1,5 +1,6 @@
 <?php
 require_once('model/config.php');
+//login validation
 
 if($loggedInUser->userType != 'volunteer'){
     header('Location: login.php');
