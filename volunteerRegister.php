@@ -7,7 +7,7 @@ if(!empty($loggedInUser)){
     die();
 }
 ?>
-
+<!-- NGO Registration -->
 <div id="volunteerregister" class="container">
     <div class="well">
         <h2 class="text-center">Volunteer Sign up</h2>
