@@ -17,7 +17,8 @@ $NGOList = fetchAllNGO();
                         </div>
                     </div>
                 </nav>
-                <?php foreach ($NGOList as $ngo) { ?>
+                <?php //calling Function ngo
+                foreach ($NGOList as $ngo) { ?>
                     <div class="panel panel-info">
                         <div class="panel-heading">
                             <a href='showNgo.php?id=<?php print($ngo['NGOUniqueID']); ?>'><?php print($ngo['NGOName']);?></a>
