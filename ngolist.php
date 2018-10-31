@@ -50,4 +50,5 @@ $NGOList = fetchAllNGO();
             </div>
         </div>
     </div>
+//Footer bellow 
 <?php include('footer.php')?>
