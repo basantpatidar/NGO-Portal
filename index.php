@@ -1,5 +1,5 @@
 <?php
-    include('header.php');
+    include('header.php'); //header file
     require_once('model/config.php');
     //Fetching all the testimonials
     $fetchTest = getAllTest();
