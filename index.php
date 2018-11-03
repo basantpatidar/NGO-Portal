@@ -137,5 +137,5 @@
     </div>
 </div>
 <!-- Testimonial End-->
-
+<!-- Footer starts -->
 <?php include('footer.php') ?>
