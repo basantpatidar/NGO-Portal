@@ -1,4 +1,5 @@
 <?php
+// DB config file and header //
 require_once('model/config.php');
 include('header.php');
 
