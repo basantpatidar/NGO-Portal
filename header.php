@@ -3,6 +3,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- NGO Header -->
     <title>NGO Navigator</title>
 
     <meta charset="utf-8">
@@ -31,7 +32,7 @@
         <div class="collapse navbar-collapse navbar-responsive-collapse" id="myNavbar">
             <ul class="nav navbar-nav navbar-right">
                 <?php
-
+                // Check user logIn or not
                 if(empty($loggedInUser)) {
                     echo '<li><a href="volunteerRegister.php"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>';
                     echo '<li><a href="login.php"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>';
